@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { DECODER_CONFIG, DECODER_LIVE_CONFIG } from '../config/decoder-config';
+import { DECODER_CONFIG, DECODER_LIVE_CONFIG } from './decoder-config';
 import * as Quagga from 'quagga';
 
 @Injectable()
